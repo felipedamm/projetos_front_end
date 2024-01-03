@@ -21,15 +21,15 @@ const router = createBrowserRouter([
         element: <Home />
       },
       {
-        path: "/projetos_js/HTMLCSS",
+        path: "/HTMLCSS",
         element: <HTMLCSS />
       },
       {
-        path: "/projetos_js/Javascript",
+        path: "/Javascript",
         element: <Javascript />
       },
       {
-        path: "/projetos_js/React",
+        path: "/React",
         element: <ReactProjects />
       },
     ]
