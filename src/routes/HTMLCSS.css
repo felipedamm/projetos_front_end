@@ -1,0 +1,23 @@
+.back-btn {
+    text-decoration: none;
+    color: #FFF;
+    margin: 2rem;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #666666;
+    background-color: #363636;
+    font-weight: bold;
+    transition: .4s;
+    align-self: center;
+    font-size: 1.5rem;
+}
+  
+.back-btn:hover{
+    background-color: #0a0a0a;
+}
+
+.HTMLCSS {
+    display: flex;
+    flex-direction: column;
+}
