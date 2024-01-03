@@ -10,10 +10,10 @@ const HomeMenu = () => {
                 <h1>Projetos Front End</h1>
                 <ul>
                     <li>
-                        <Link to={`/HTMLCSS`}>HTML e CSS</Link>
+                        <Link to={`/projetos_js/HTMLCSS`}>HTML e CSS</Link>
                     </li>
                     <li>
-                        <Link to={`/Javascript`}>Javascript</Link>
+                        <Link to={`/projetos_js/Javascript`}>Javascript</Link>
                     </li>
                 </ul>
             </div>
