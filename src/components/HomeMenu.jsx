@@ -7,13 +7,19 @@ const HomeMenu = () => {
     <div>
         <div id="main-container">
             <div className="menu">
-                <h1>Projetos Front End</h1>
+                <h1>Projetos Felipe Damm</h1>
                 <ul>
                     <li>
-                        <Link to={`/projetos_js/HTMLCSS`}>HTML e CSS</Link>
+                        <Link to={`/projetos_front_end/HTMLCSS`}>HTML e CSS</Link>
                     </li>
                     <li>
-                        <Link to={`/projetos_js/Javascript`}>Javascript</Link>
+                        <Link to={`/projetos_front_end/Javascript`}>Javascript</Link>
+                    </li>
+                    <li>
+                        <Link to={`/projetos_front_end/ReactJs`}>React + JavaScript</Link>
+                    </li>
+                    <li>
+                        <Link to={`/projetos_front_end/ReactTs`}>React + TypeScript</Link>
                     </li>
                 </ul>
             </div>

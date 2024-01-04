@@ -8,8 +8,8 @@ import {createBrowserRouter, RouterProvider, Route} from 'react-router-dom'
 import Home from './routes/Home.jsx'
 import HTMLCSS from './routes/HTMLCSS.JSX'
 import Javascript from './routes/Javascript.jsx'
-import ReactPropjects from './routes/ReactProjects.jsx'
-import ReactProjects from './routes/ReactProjects.jsx'
+import ReactJsProjects from './routes/ReactJsProjects.jsx'
+import ReactTsProjects from './routes/ReactTsProjects.jsx'
 
 
 const router = createBrowserRouter([
@@ -17,20 +17,24 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       {
-        path: "/projetos_js",
+        path: "/projetos_front_end",
         element: <Home />
       },
       {
-        path: "/projetos_js/HTMLCSS",
+        path: "/projetos_front_end/HTMLCSS",
         element: <HTMLCSS />
       },
       {
-        path: "/projetos_js/Javascript",
+        path: "/projetos_front_end/Javascript",
         element: <Javascript />
       },
       {
-        path: "/projetos_js/React",
-        element: <ReactProjects />
+        path: "/projetos_front_end/ReactJs",
+        element: <ReactJsProjects />
+      },
+      {
+        path: "/projetos_front_end/ReactTs",
+        element: <ReactTsProjects />
       },
     ]
   }

@@ -5,14 +5,21 @@ import "./Navbar.css"
 const Navbar = () => {
   return (
     <nav className='navbar'>
-        <Link to={`/`}>Projetos Front End</Link>
+        <Link to={`/projetos_front_end`}>Projetos Felipe Damm</Link>
         <ul>
             <li>
-                <Link to={`/HTMLCSS`}>HTML e CSS</Link>
+                <Link to={`/projetos_front_end/HTMLCSS`}>HTML e CSS</Link>
             </li>
             <li>
-                <Link to={`/Javascript`}>Javascript</Link>
+                <Link to={`/projetos_front_end/Javascript`}>JavaScript</Link>
             </li>
+            <li>
+                <Link to={`/projetos_front_end/ReactJs`}>ReactJs</Link>
+            </li>
+            <li>
+                <Link to={`/projetos_front_end/ReactTs`}>ReactTs</Link>
+            </li>
+            
         </ul>
     </nav>
   )
