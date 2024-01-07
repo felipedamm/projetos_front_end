@@ -13,7 +13,7 @@ const HomeMenu = () => {
                         <Link to={`/projetos_front_end/HTMLCSS`}>HTML e CSS</Link>
                     </li>
                     <li>
-                        <Link to={`/projetos_front_end/Javascript`}>Javascript</Link>
+                        <Link to={`/projetos_front_end/Javascript`}>JavaScript</Link>
                     </li>
                     <li>
                         <Link to={`/projetos_front_end/ReactJs`}>React + JavaScript</Link>

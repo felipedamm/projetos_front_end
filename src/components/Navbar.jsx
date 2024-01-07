@@ -14,12 +14,11 @@ const Navbar = () => {
                 <Link to={`/projetos_front_end/Javascript`}>JavaScript</Link>
             </li>
             <li>
-                <Link to={`/projetos_front_end/ReactJs`}>ReactJs</Link>
+                <Link to={`/projetos_front_end/ReactJs`}>ReactJS</Link>
             </li>
             <li>
-                <Link to={`/projetos_front_end/ReactTs`}>ReactTs</Link>
+                <Link to={`/projetos_front_end/ReactTs`}>ReactTS</Link>
             </li>
-            
         </ul>
     </nav>
   )

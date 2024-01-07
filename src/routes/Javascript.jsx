@@ -7,7 +7,7 @@ const Javascript = () => {
   return (
     <div className="javascript">
       <JavascriptMenu />
-      <Link to={`/`} className='back-btn'>Voltar</Link>
+      <Link to={`/projetos_front_end`} className='back-btn'>Voltar</Link>
     </div>
   )
 }
